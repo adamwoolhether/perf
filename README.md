@@ -92,7 +92,7 @@ We can use the `-cpu` flag to control the number of CPU cores, which sets the `G
 latency.
 
 ### Benchstat
-In addition to output from standard benchmark tooling, we can use [benchstat](https://pkg.go.dev/golang.org/x/perf/cmd/benchstat) for processing/statistical analysis.  
+In addition to output from standard benchmark tooling, we can use [benchstat](golang.org/x/perf/cmd/benchstat) for processing/statistical analysis.  
 Usage:
 ```
 go install https://pkg.go.dev/golang.org/x/perf/cmd/benchstat@latest
